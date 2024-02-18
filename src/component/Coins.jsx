@@ -23,7 +23,7 @@ const Coins = () => {
 
   const btns =  new Array(20).fill(1)
   useEffect(() => {
-    const fetchCoin = async () => {
+    const fetchCoins = async () => {
       try {
         const { data } = await axios.get(
           `${server}/coins/markets?vs_currency=${currency}&page=${page}`
@@ -36,7 +36,7 @@ const Coins = () => {
         setLoading(false);
       }
     };
-    fetchCoin();
+    fetchCoins();
   }, [currency,page]);
 
   if (error) return <Error message={"error while loading Coins"} />;
