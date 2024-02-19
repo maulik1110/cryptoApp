@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <HStack p={"4"} boxShadow={"base"} bgColor={"black"}> 
-        <Button color={"white"} colorScheme='gray' >
+        <Button color={"white"} colorScheme='black' >
             <Link to={"/"}>Home</Link>
         </Button>
-        <Button color={"white"} colorScheme='gray' >
+        <Button color={"white"} colorScheme='black' >
             <Link to={"/exchanges"}>Exchanges</Link>
         </Button>
-        <Button color={"white"} colorScheme='gray'>
+        <Button color={"white"} colorScheme='black'>
             <Link to={"/coins"}>Coins</Link>
         </Button>
         {/* <Button variant={"ghost"} color={"white"}>
