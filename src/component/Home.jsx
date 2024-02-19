@@ -47,8 +47,8 @@ const Home = () => {
     // </HStack>
     <VStack>
       <HStack w={"full"} justifyContent={"space-between"} p={"8"} bg={"black"} flex={"flex"} flexDirection={["column","row"]}>
-        <Text textAlign={"left"} fontSize={"50"} fontWeight={"bold"} lineHeight={"1.1"} opacity={"0.8"}>The only <br /> <Text as={"span"} color={"orange"} fontSize={"55"} >CRYPTO APP</Text> you need <br /> to get all <Text as={"span"}color={"orange"} fontSize={"55"}> UPDATES!</Text> </Text>
-        <Text textAlign={"right"} fontSize={"18"} lineHeight={"1"}>Fastest income source <br /> to get rich in current generation</Text>
+        <Text textAlign={"left"} fontSize={"50"} fontWeight={"bold"} lineHeight={"1.1"} opacity={"0.8"} color={"white"}>The only <br /> <Text as={"span"} color={"orange"} fontSize={"55"} >CRYPTO APP</Text> you need <br /> to get all <Text as={"span"}color={"orange"} fontSize={"55"}> UPDATES!</Text> </Text>
+        <Text textAlign={"right"} fontSize={"18"} lineHeight={"1"} color={"white"}>Fastest income source <br /> to get rich in current generation</Text>
       </HStack>
       <VStack p={"8"} bg={"black"} w={"full"} h={"full"} objectPosition={"center"}>
         <Image borderRadius={"10"} w={"full"} h={"full"} objectFit={"cover"}  src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
